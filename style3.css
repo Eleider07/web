@@ -1,0 +1,18 @@
+body {
+  background-color: rgb(141, 255, 141);
+  color: brown;
+  text-align: center;
+  padding: 30px;
+
+}
+
+video {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  border: 5px #333;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+}
