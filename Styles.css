@@ -1,0 +1,124 @@
+
+  body {
+    background-image: url('images/tulipanes1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  h1 {
+    color: rgb(63, 19, 55);
+    text-align: center;
+    margin-top: 50px;
+    font-family: forte;
+    font-size: 60px;
+ }
+
+ nav {
+     background-color: rgb(63, 19, 55);
+     top: 0;
+     left: 0;
+     padding: 10px 0;
+     width: 100%;
+     text-align: center;
+     position: fixed;
+     z-index: 1000;
+ }
+
+ .menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  
+ }
+
+ .menu li a {
+  color: white;
+  text-decoration: none;
+  padding: 14px 20px;
+  display: block;
+  text-align: center;
+ }
+
+ .menu li a:hover {
+    background-color: #575757;
+    border-radius: 4px
+ }
+
+ .container {
+  background-image: url('images/tulipanes.jpg');  
+  margin-top: 40px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: #574;
+  font-size: 25px;
+  padding: 25px;
+
+ }
+
+ .firstimage {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 40px;
+   width: 30%;
+   border-radius: 20px;
+ }
+
+ .subtitulo1 {
+   color: rgb(255, 1, 208);
+   font-size: 36px;
+   font-family: Comic Sans MS;
+   margin-top: 5%;
+   margin-left: 10%;
+   margin-right: 10%;
+ }
+
+ #parrafo1 {
+   color: blueviolet;
+   font-family: Arial;
+   font-size: 20px;
+   margin-left: 10%;
+   margin-right: 10%;
+ }
+
+ .maintable {
+   width: 75%;
+   border-collapse: collapse;
+   background-color: rgb(63, 19, 55);
+   border: 2px solid #333;
+   border-radius: 35px; 
+   overflow: hidden; 
+   text-align: center;
+   margin-left: 13%;
+ }
+
+ th, td {
+   padding: 10px; 
+   text-align: center;
+}
+
+th, td {
+   border: none;
+}
+
+
+footer {
+  text-align: center;
+  color: blueviolet;
+  font-family: 'Gill Sans';
+}
+
+.center {
+  text-align: center;
+}
+
+.tm {
+  width: 474px;
+  height: 474px;
+  object-fit: cover;
+}

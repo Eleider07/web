@@ -1,0 +1,44 @@
+body {
+  background-color: yellow;
+  color: rgb(255, 124, 202);
+  margin: 20px;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: forte;
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+  font-family: Arial;
+  text-align: center;
+}
+
+.maintable {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff567;
+  border: 2px solid #772121;
+  border-radius: 20px; 
+  overflow: hidden; 
+  text-align: center;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-collapse: collapse;
+  background-color: rgb(188, 245, 0);
+  border: 2px solid #333;
+  overflow: hidden; 
+ 
+  cursor: pointer;
+}
+
+img:hover {
+  transform: scale(1.1); 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
